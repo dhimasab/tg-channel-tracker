@@ -1,0 +1,32 @@
+# Secrets — JANGAN pernah di-commit
+.env
+.env.*
+!.env.example
+
+# Runtime state
+data/
+logs/
+.pid
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Editor / OS
+.DS_Store
+*.swp
+*~
+
+# Backup
+*.bak
+*.bak.*
+
+# Secrets file lokal
+.pat
+*.pat

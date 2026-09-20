@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tg-channel-tracker"
+version = "1.0.0"
+description = "Pantau channel Telegram publik via web preview, forward tiap post baru ke chat Telegram."
+requires-python = ">=3.11"
+dependencies = ["requests>=2.31"]
+
+[project.scripts]
+tracker = "tracker.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

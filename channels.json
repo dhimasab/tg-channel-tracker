@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "poll_interval_seconds": 45,
+    "max_workers": 5,
+    "request_timeout_seconds": 20,
+    "notify_on_first_run": false,
+    "include_media": true,
+    "max_message_length": 3800,
+    "max_caption_length": 1024,
+    "max_send_per_cycle": 20,
+    "send_delay_seconds": 1.0,
+    "credit_footer": false,
+    "display_ca": false,
+    "default_forward_mode": "all"
+  },
+  "telegram": {
+    "bot_token_env": "TG_BOT_TOKEN",
+    "chat_id_env": "TG_CHAT_ID"
+  },
+  "channels": [
+    { "username": "valuble",              "label": "Valuble",              "tags": ["alpha", "crypto"],      "forward_mode": "all", "enabled": true },
+    { "username": "cuanversecrypto",      "label": "Cuanverse Crypto",     "tags": ["alpha", "crypto"],      "forward_mode": "all", "enabled": true },
+    { "username": "volubitacademy",       "label": "Volubit Academy",      "tags": ["education"],            "forward_mode": "all", "enabled": true },
+    { "username": "guaremperor",          "label": "Guar Emperor",         "tags": ["alpha", "crypto"],      "forward_mode": "all", "enabled": true },
+    { "username": "CentralHub_News",      "label": "Central Hub News",     "tags": ["news"],                 "forward_mode": "all", "enabled": true },
+    { "username": "PegazusEcosystem",     "label": "Pegazus Ecosystem",    "tags": ["alpha", "ecosystem"],   "forward_mode": "all", "enabled": true },
+    { "username": "shoalresearch",        "label": "Shoal Research",       "tags": ["research"],             "forward_mode": "all", "enabled": true },
+    { "username": "WatcherGuru",          "label": "Watcher Guru",         "tags": ["news"],                 "forward_mode": "all", "enabled": true },
+    { "username": "DelphiDigitalAlerts",  "label": "Delphi Digital Alerts","tags": ["research", "news"],     "forward_mode": "all", "enabled": true },
+    { "username": "thebull_crypto",       "label": "The Bull Crypto",      "tags": ["alpha", "crypto"],      "forward_mode": "all", "enabled": true },
+    { "username": "atoms_research",       "label": "Atoms Research",       "tags": ["research"],             "forward_mode": "all", "enabled": true },
+    { "username": "CryptoRoseChannel",    "label": "Crypto Rose",          "tags": ["news"],                 "forward_mode": "all", "enabled": true },
+    { "username": "forexfactorynews1",    "label": "Forex Factory News",   "tags": ["news", "forex"],        "forward_mode": "all", "enabled": true },
+    { "username": "mickeymrdtchanel",     "label": "Mickey MRDT",          "tags": ["alpha", "crypto"],      "forward_mode": "all", "enabled": true },
+    { "username": "cointelegraph",        "label": "Cointelegraph",        "tags": ["news"],                 "forward_mode": "all", "enabled": true },
+    { "username": "ChannelPejuangCryptoID","label": "Pejuang Crypto ID",   "tags": ["alpha", "crypto"],      "forward_mode": "all", "enabled": true },
+    { "username": "coindesk",             "label": "CoinDesk",             "tags": ["news"],                 "forward_mode": "all", "enabled": true },
+    { "username": "top7ico",              "label": "Top7 ICO",             "tags": ["ico"],                  "forward_mode": "all", "enabled": true },
+    { "username": "icodrops",             "label": "ICODrops",             "tags": ["ico"],                  "forward_mode": "all", "enabled": true },
+    { "username": "cryptoquant_official", "label": "CryptoQuant",          "tags": ["onchain", "research"],  "forward_mode": "all", "enabled": true },
+    { "username": "CoinpediaMarket",      "label": "Coinpedia Market",     "tags": ["news"],                 "forward_mode": "all", "enabled": true },
+    { "username": "BeritaCryptoo",        "label": "Berita Crypto",        "tags": ["news"],                 "forward_mode": "all", "enabled": true },
+    { "username": "news_crypto",          "label": "News Crypto",          "tags": ["news", "crypto"],       "forward_mode": "all", "enabled": true },
+    { "username": "news_cryptop",         "label": "News Crypto P",        "tags": ["news", "crypto"],       "forward_mode": "all", "enabled": true }
+  ]
+}
